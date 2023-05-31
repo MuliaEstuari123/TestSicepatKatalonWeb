@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SCN_001_Web_Saucedemo" time="32.701" tests="1" failures="0" errors="0">
+   <testsuite name="SCN_001_Web_Saucedemo" tests="1" failures="0" errors="0" time="32.701" skipped="0" timestamp="2023-05-29 23:29:21" hostname="Mulia Estuari - DESKTOP-C1VBO9R" id="Test Suites/SCN_001_Web_Saucedemo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Mulia Estuari\\git\\QATestSicepat\\Reports\\20230529_232915\\SCN_001_Web_Saucedemo\\20230529_232915"/>
+         <property name="logFiles" value="C:\\Users\\Mulia Estuari\\git\\QATestSicepat\\Reports\\20230529_232915\\SCN_001_Web_Saucedemo\\20230529_232915\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Mulia Estuari\\git\\QATestSicepat\\Reports\\20230529_232915\\SCN_001_Web_Saucedemo\\20230529_232915\\1685377773384.png, C:\\Users\\Mulia Estuari\\git\\QATestSicepat\\Reports\\20230529_232915\\SCN_001_Web_Saucedemo\\20230529_232915\\1685377775553.png, C:\\Users\\Mulia Estuari\\git\\QATestSicepat\\Reports\\20230529_232915\\SCN_001_Web_Saucedemo\\20230529_232915\\1685377777236.png, C:\\Users\\Mulia Estuari\\git\\QATestSicepat\\Reports\\20230529_232915\\SCN_001_Web_Saucedemo\\20230529_232915\\1685377779598.png, C:\\Users\\Mulia Estuari\\git\\QATestSicepat\\Reports\\20230529_232915\\SCN_001_Web_Saucedemo\\20230529_232915\\1685377781555.png, C:\\Users\\Mulia Estuari\\git\\QATestSicepat\\Reports\\20230529_232915\\SCN_001_Web_Saucedemo\\20230529_232915\\1685377782834.png, C:\\Users\\Mulia Estuari\\git\\QATestSicepat\\Reports\\20230529_232915\\SCN_001_Web_Saucedemo\\20230529_232915\\1685377787690.png, C:\\Users\\Mulia Estuari\\git\\QATestSicepat\\Reports\\20230529_232915\\SCN_001_Web_Saucedemo\\20230529_232915\\1685377789927.png, C:\\Users\\Mulia Estuari\\git\\QATestSicepat\\Reports\\20230529_232915\\SCN_001_Web_Saucedemo\\20230529_232915\\1685377792188.png"/>
+         <property name="hostName" value="Mulia Estuari - DESKTOP-C1VBO9R"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="59ae59ead7bbe2ee4795a36957b4e19c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SCN_001_TC_001_Web_Saucedemo" time="32.046" classname="Test Cases/SCN_001_TC_001_Web_Saucedemo" status="PASSED">
+         <system-out><![CDATA[2023-05-29 23:29:22 - [TEST_CASE][PASSED] - Test Cases/SCN_001_TC_001_Web_Saucedemo: Test Cases/SCN_001_TC_001_Web_Saucedemo
+
+2023-05-29 23:29:23 - [TEST_STEP][PASSED] - Username = "standard_user": null
+
+2023-05-29 23:29:23 - [TEST_STEP][PASSED] - Password = "secret_sauce": null
+
+2023-05-29 23:29:23 - [TEST_STEP][PASSED] - Browser = "https://www.saucedemo.com/": null
+
+2023-05-29 23:29:23 - [TEST_STEP][PASSED] - FirstName = "bardi": null
+
+2023-05-29 23:29:23 - [TEST_STEP][PASSED] - LastName = "alifa": null
+
+2023-05-29 23:29:23 - [TEST_STEP][PASSED] - PostalCode = "11528": null
+
+2023-05-29 23:29:23 - [TEST_STEP][PASSED] - openBrowser(Browser): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-29 23:29:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-29 23:29:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-29 23:29:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-29 23:29:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-29 23:29:28 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-29 23:29:28 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Page_Swag Labs/input_Username"), 5)): null
+
+2023-05-29 23:29:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Username' is present
+
+2023-05-29 23:29:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Username"), Username): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Username'
+
+2023-05-29 23:29:30 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Username'
+
+2023-05-29 23:29:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Password"), Password): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Password'
+
+2023-05-29 23:29:31 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Password'
+
+2023-05-29 23:29:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-05-29 23:29:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-29 23:29:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-05-29 23:29:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Mulia Estuari\\git\\QATestSicepat\\Reports\\20230529_232915\\SCN_001_Web_Saucedemo\\20230529_232915\\1685377773384.png]]
+
+2023-05-29 23:29:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/btn_Login")): Object: 'Object Repository/Page_Swag Labs/btn_Login' is clicked on
+
+2023-05-29 23:29:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/btn_Login' is clicked on
+
+2023-05-29 23:29:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-05-29 23:29:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-29 23:29:35 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-05-29 23:29:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Mulia Estuari\\git\\QATestSicepat\\Reports\\20230529_232915\\SCN_001_Web_Saucedemo\\20230529_232915\\1685377775553.png]]
+
+2023-05-29 23:29:35 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Page_Swag Labs/text_harga_barang_backpack"), 5)): null
+
+2023-05-29 23:29:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/text_harga_barang_backpack' is present
+
+2023-05-29 23:29:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/text_Sauce_Labs_Backpack")): Object: 'Object Repository/Page_Swag Labs/text_Sauce_Labs_Backpack' is clicked on
+
+2023-05-29 23:29:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/text_Sauce_Labs_Backpack' is clicked on
+
+2023-05-29 23:29:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-05-29 23:29:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Mulia Estuari\\git\\QATestSicepat\\Reports\\20230529_232915\\SCN_001_Web_Saucedemo\\20230529_232915\\1685377777236.png]]
+
+2023-05-29 23:29:37 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Page_Swag Labs/text_harga_barang_validate"), 5)): null
+
+2023-05-29 23:29:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/text_harga_barang_validate' is present
+
+2023-05-29 23:29:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/btn_Add_to_cart")): Object: 'Object Repository/Page_Swag Labs/btn_Add_to_cart' is clicked on
+
+2023-05-29 23:29:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/btn_Add_to_cart' is clicked on
+
+2023-05-29 23:29:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-05-29 23:29:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-29 23:29:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-05-29 23:29:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Mulia Estuari\\git\\QATestSicepat\\Reports\\20230529_232915\\SCN_001_Web_Saucedemo\\20230529_232915\\1685377779598.png]]
+
+2023-05-29 23:29:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/icon_Add_to_chart")): Object: 'Object Repository/Page_Swag Labs/icon_Add_to_chart' is clicked on
+
+2023-05-29 23:29:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/icon_Add_to_chart' is clicked on
+
+2023-05-29 23:29:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-05-29 23:29:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-29 23:29:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-05-29 23:29:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Mulia Estuari\\git\\QATestSicepat\\Reports\\20230529_232915\\SCN_001_Web_Saucedemo\\20230529_232915\\1685377781555.png]]
+
+2023-05-29 23:29:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/btn_Checkout")): Object: 'Object Repository/Page_Swag Labs/btn_Checkout' is clicked on
+
+2023-05-29 23:29:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/btn_Checkout' is clicked on
+
+2023-05-29 23:29:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-05-29 23:29:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Mulia Estuari\\git\\QATestSicepat\\Reports\\20230529_232915\\SCN_001_Web_Saucedemo\\20230529_232915\\1685377782834.png]]
+
+2023-05-29 23:29:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_FirstName"), FirstName): Text 'bardi' is set on object 'Object Repository/Page_Swag Labs/input_FirstName'
+
+2023-05-29 23:29:44 - [MESSAGE][PASSED] - Text 'bardi' is set on object 'Object Repository/Page_Swag Labs/input_FirstName'
+
+2023-05-29 23:29:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_LastName"), LastName): Text 'alifa' is set on object 'Object Repository/Page_Swag Labs/input_LastName'
+
+2023-05-29 23:29:45 - [MESSAGE][PASSED] - Text 'alifa' is set on object 'Object Repository/Page_Swag Labs/input_LastName'
+
+2023-05-29 23:29:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_PostalCode"), PostalCode): Text '11528' is set on object 'Object Repository/Page_Swag Labs/input_PostalCode'
+
+2023-05-29 23:29:46 - [MESSAGE][PASSED] - Text '11528' is set on object 'Object Repository/Page_Swag Labs/input_PostalCode'
+
+2023-05-29 23:29:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-05-29 23:29:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-29 23:29:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-05-29 23:29:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Mulia Estuari\\git\\QATestSicepat\\Reports\\20230529_232915\\SCN_001_Web_Saucedemo\\20230529_232915\\1685377787690.png]]
+
+2023-05-29 23:29:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/btn_Continue")): Object: 'Object Repository/Page_Swag Labs/btn_Continue' is clicked on
+
+2023-05-29 23:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/btn_Continue' is clicked on
+
+2023-05-29 23:29:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-05-29 23:29:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-29 23:29:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-05-29 23:29:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Mulia Estuari\\git\\QATestSicepat\\Reports\\20230529_232915\\SCN_001_Web_Saucedemo\\20230529_232915\\1685377789927.png]]
+
+2023-05-29 23:29:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/btn_Finish")): Object: 'Object Repository/Page_Swag Labs/btn_Finish' is clicked on
+
+2023-05-29 23:29:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/btn_Finish' is clicked on
+
+2023-05-29 23:29:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-05-29 23:29:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-05-29 23:29:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-05-29 23:29:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Mulia Estuari\\git\\QATestSicepat\\Reports\\20230529_232915\\SCN_001_Web_Saucedemo\\20230529_232915\\1685377792188.png]]
+
+2023-05-29 23:29:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/btn_SideBar_Menu")): Object: 'Object Repository/Page_Swag Labs/btn_SideBar_Menu' is clicked on
+
+2023-05-29 23:29:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/btn_SideBar_Menu' is clicked on
+
+2023-05-29 23:29:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/btn_Logout")): Object: 'Object Repository/Page_Swag Labs/btn_Logout' is clicked on
+
+2023-05-29 23:29:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/btn_Logout' is clicked on
+
+2023-05-29 23:29:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-29 23:29:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-29 23:29:21 - [TEST_SUITE][PASSED] - SCN_001_Web_Saucedemo: Test Cases/SCN_001_TC_001_Web_Saucedemo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
